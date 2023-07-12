@@ -55,7 +55,7 @@ footer {
     border: none;
 }
 
-/* Featured flower section */
+/* Bonus#1 - Featured flower section */
 
 .featured-flowers-section {
     display: flex;
@@ -66,7 +66,7 @@ footer {
     margin-left: 200px;
 }
 
-.featured-flowers-desc{
+.featured-flowers-desc {
     width: 40%;
 }
 
@@ -119,7 +119,7 @@ footer {
     text-decoration-line: underline;
 } */
 
-.featured-flowers-image{
+.featured-flowers-image {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,7 +158,8 @@ footer {
 .hot-deal-title,
 .insta-title,
 .latest-deals-title,
-.featured-flowers-title {
+.featured-flowers-title,
+.customer-review-section {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
@@ -172,7 +173,8 @@ footer {
 .hot-deal-desc,
 .insta-desc,
 .latest-deals-desc,
-.featured-flowers-desc {
+.featured-flowers-desc,
+.customer-review-desc {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -263,6 +265,60 @@ footer {
 
 }
 
+/* Bonus #2 - Customer */
+
+.customer-review-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.customer-review-desc {
+    width: 40%;
+}
+
+.customer-reviews{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.customer-review {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+
+
+.customer-review img{
+    padding-top: 24px;
+    width: 150px;
+    height: 190px;
+    margin: 0px auto;
+}
+
+.customer-review small{
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.customer-review p{
+color: rgba(39, 39, 39, 0.60);
+text-align: left;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: 30px;
+padding: 0px 24px 24px 24px;
+}
 /* footer styles */
 
 footer {
