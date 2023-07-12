@@ -8,7 +8,7 @@ body {
 
 main section,
 footer {
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 /* Banner styles */
@@ -17,40 +17,36 @@ footer {
     background-color: #E554731A;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 140px 0px;
+    padding: 50px 240px 0px;
 }
 
 .banner-title {
     color: #272727;
-    font-size: 60px;
-    font-style: normal;
+    font-size: 80px;
     font-weight: 800;
     line-height: normal;
     margin-right: 97px;
-    margin-bottom: 25px;
+    padding-bottom: 32px;
 }
 
 .banner-desc {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    margin-right: 300px;
+    margin-right: 171px;
     margin-top: 0px;
-    margin-bottom: 25px;
+    padding-bottom: 32px;
 }
 
 .banner img {
-    width: 453px;
-    height: 500;
-    flex-shrink: 0;
+    width: 635px;
+    height: 800px;
 }
 
 .btn-primary {
     color: #FFF;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     padding: 20px 43px;
@@ -67,14 +63,14 @@ footer {
     background-color: #E554731A;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 380px;
+    padding: 100px 430px 100px 450px;
 }
 
 .hot-deal-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
     margin-right: 120px;
 }
 
@@ -82,8 +78,7 @@ footer {
 .insta-title,
 .latest-deals-title {
     color: #272727;
-    font-size: 30px;
-    font-style: normal;
+    font-size: 40px;
     font-weight: 800;
     line-height: normal;
 }
@@ -98,16 +93,18 @@ footer {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
 
+.hot-deal-content button{
+    margin-top: 8px;
+}
+
 
 .hot-deal-section img {
-    width: 190px;
-    height: 250px;
-    flex-shrink: 0;
+    width: 420px;
+    height: 318px;
 }
 
 /* Instagram section styles */
@@ -116,13 +113,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
     margin-right: 200px;
     margin-left: 200px;
 }
 
 .insta-desc {
-    width: 70%;
+    width: 40%;
 }
 
 .insta-images {
@@ -132,8 +129,9 @@ footer {
 }
 
 .insta-image {
-    width: 255px;
-    height: 296px;
+    margin-top: 24px;
+    width: 342px;
+    height: 396px;
 }
 
 /* latest deals section styles */
@@ -141,7 +139,6 @@ footer {
 .latest-deals-section {
     margin-left: 200px;
     margin-right: 200px;
-    /* background-color: #97ae71; */
     background-image: url('../flower_assets/Rectangle_9.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -153,7 +150,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
     padding-top: 120px;
     padding-bottom: 120px;
 
@@ -161,23 +158,22 @@ footer {
 
 .latest-deals-subscription-form {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .latest-deals-subscription-form input[type=email] {
-    width: 550px;
-    height: 60px;
+    width: 700px;
+    height: 64px;
     border-radius: 8px;
     background: #FFF;
     border: none;
-    margin-right: 12px;
+    margin-right: 16px;
     color: rgba(39, 39, 39, 0.60);
 
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     padding-left: 22px;
@@ -189,9 +185,9 @@ footer {
 footer {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 24px;
     align-items: center;
-    padding: 100px 500px;
+    padding: 128px 0px;
     background-color: #111010;
 
 }
@@ -199,7 +195,6 @@ footer {
 footer h3 {
     color: #E55473;
     font-size: 30px;
-    font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
@@ -212,16 +207,16 @@ footer p {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    width: 32%;
 }
 
 footer small {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 8px;
 }
