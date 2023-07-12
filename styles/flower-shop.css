@@ -109,16 +109,6 @@ footer {
     background-position: center bottom;
 }
 
-/* .featured-flowers-images p {
-    color: #272727;
-    text-align: center;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
-} */
-
 .featured-flowers-image {
     display: flex;
     flex-direction: column;
@@ -135,7 +125,34 @@ footer {
     line-height: 35px;
 }
 
+/* Optional section style */
 
+.optional-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.optional-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 86px;
+    padding-bottom: 87px;
+}
+
+.optional-section p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
 
 /* Hot deals section styles */
 
@@ -280,7 +297,7 @@ footer {
     width: 40%;
 }
 
-.customer-reviews{
+.customer-reviews {
     display: flex;
     align-items: center;
     gap: 24px;
@@ -290,19 +307,19 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    
+
 }
 
 
 
-.customer-review img{
+.customer-review img {
     padding-top: 24px;
     width: 150px;
     height: 190px;
     margin: 0px auto;
 }
 
-.customer-review small{
+.customer-review small {
     color: rgb(39, 39, 39);
     text-align: center;
     font-size: 16px;
@@ -310,15 +327,16 @@ footer {
     line-height: 30px;
 }
 
-.customer-review p{
-color: rgba(39, 39, 39, 0.60);
-text-align: left;
-font-size: 18px;
-font-style: italic;
-font-weight: 400;
-line-height: 30px;
-padding: 0px 24px 24px 24px;
+.customer-review p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 24px 24px 24px;
 }
+
 /* footer styles */
 
 footer {
