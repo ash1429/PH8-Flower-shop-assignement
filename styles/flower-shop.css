@@ -6,7 +6,8 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-main section {
+main section,
+footer {
     margin-top: 120px;
 }
 
@@ -78,7 +79,8 @@ main section {
 }
 
 .hot-deal-title,
-.insta-title {
+.insta-title,
+.latest-deals-title {
     color: #272727;
     font-size: 30px;
     font-style: normal;
@@ -91,7 +93,8 @@ main section {
 }
 
 .hot-deal-desc,
-.insta-desc {
+.insta-desc,
+.latest-deals-desc {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -114,14 +117,111 @@ main section {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.insta-desc {
+    width: 70%;
 }
 
 .insta-images {
+    width: 100%;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .insta-image {
-    width: 207px;
-    height: 240px;
+    width: 255px;
+    height: 296px;
+}
+
+/* latest deals section styles */
+
+.latest-deals-section {
+    margin-left: 200px;
+    margin-right: 200px;
+    /* background-color: #97ae71; */
+    background-image: url('../flower_assets/Rectangle_9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+
+}
+
+.latest-deals-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.latest-deals-subscription-form {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latest-deals-subscription-form input[type=email] {
+    width: 550px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    margin-right: 12px;
+    color: rgba(39, 39, 39, 0.60);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 22px;
+
+}
+
+/* footer styles */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 100px 500px;
+    background-color: #111010;
+
+}
+
+footer h3 {
+    color: #E55473;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer h3 span {
+    color: #FFFFFF;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer small {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
